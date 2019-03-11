@@ -1,0 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+body .container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+body .container img{
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+body .container .contacts{
+    display: inline-block;
+    margin-left: 10%;
+}
+body .container .contacts h3{
+    margin-top: 0;
+}
+body .container .contacts table{
+    border: 1px solid rgb(177, 177, 177);
+    padding: 10px;
+    border-collapse: collapse;
+}
+body .container .contacts table tr, body .container .contacts table td, body .container .contacts table th{
+    border: 1px solid rgb(177, 177, 177);
+    padding: 8px;
+}
